@@ -1,2 +1,2 @@
-# Mage Games
-i made this for some kid hes paying me to do so idk
+# Tatergames
+i made this for some tater hes paying me to do so idk
