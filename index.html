@@ -1,10 +1,12 @@
 <style>
-  h1 {
-    color: white;
-    text-align: center;
-    position: absoulute;
-    top: 0px;
-  }
+h1 {
+  position: absolute;       /* Take the element out of the normal flow */
+  top: 0;                   /* Position it at the top */
+  left: 50%;                /* Position it at the center horizontally */
+  transform: translateX(-50%); /* Adjust to truly center the element */
+  margin: 0;                /* Optional: remove default margin to avoid extra space */
+}
+
 
   body {
     background-color: black;
