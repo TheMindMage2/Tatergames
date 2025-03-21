@@ -1,2 +1,2 @@
 # Tatergames
-i made this for some tater hes paying me to do so idk
+i made this for tater hes paying me to do so idk
