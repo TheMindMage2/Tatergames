@@ -8,18 +8,35 @@
     background-color: black;
   }
 
-  button {
-  width: 200px;      /* Set a specific width */
-  height: 60px;      /* Set a specific height */
-  font-size: 20px; 
-    position: absoulute;
-    top: 30px;
-    left: 100px;/* Make the font size bigger */
+.button-container {
+  display: flex;          /* Use flexbox to arrange buttons in a column */
+  flex-direction: column; /* Stack the buttons vertically */
+  gap: 10px;              /* Optional: adds space between buttons */
+  align-items: flex-start; /* Optional: aligns buttons to the left */
 }
 
+/* Style the buttons */
+button {
+  padding: 100px 30px;      /* Increase the padding for more space inside the button */
+  font-size: 18px;         /* Increase the font size */
+  background-color: red;   /* Set background color to red */
+  color: white;            /* Set text color to white */
+  border: none;            /* Remove the border */
+  border-radius: 8px;      /* Optional: add rounded corners */
+  cursor: pointer;         /* Change cursor to pointer on hover */
+  width: 100%;             /* Make buttons stretch to full width of their container */
+}
+
+/* Optional: Hover effect */
+button:hover {
+  background-color: darkred;  /* Change background color on hover */
+}
 
 </style>
-
+<div class="button-container">
+  
 <a href="Magecraft.html"><button>MageCraft</button></a>
 <a href="gamepage.html"><button>Games</button></a>
 <button>Subscibe to mage</button>
+</div>
+<h1>Tatergames</h1>
